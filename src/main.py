@@ -3,7 +3,7 @@ Main entry point for the LangGraph RAG application.
 Production-grade structure with proper path configuration.
 """
 
-from src.modules.graph_builder import BuildGraph
+from src.modules.graphBuilder import BuildGraph
 
 def main():
     try:

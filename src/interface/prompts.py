@@ -9,4 +9,4 @@ Decide if this query is sensitive or needs human intervention (e.g. related to m
 Respond ONLY with `True` if it should be escalated, or `False` otherwise.
 """)
 
-rag_custom_prompt = ChatPromptTemplate.from_template("""You are a yoga expert. Given the user query: {query}, give proper response or advice to the user on whatsapp.""")
+rag_custom_prompt = ChatPromptTemplate.from_template("""You are a yoga expert. Given the context: {context} and user query: {query}, give proper response or advice to the user only based on the context such that you are talking to user in detail.""")
