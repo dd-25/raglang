@@ -1,8 +1,8 @@
 import uuid
 from pinecone import Pinecone
-from src.config.config import Config
 from llama_index.embeddings.openai import OpenAIEmbedding
 import logging
+from src.config.config import Config
 
 logger = logging.getLogger(__name__)
 
